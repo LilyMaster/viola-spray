@@ -9,9 +9,12 @@
     <link href="_/css/mystyles.css" rel="stylesheet" media="screen">
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <p>Starting text</p>
+    <div class="container-fluid">
+      <h1>Hello, world!</h1>
+      <p>Starting text of the livepreview Version 2</p>
+    </div>
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/myscript.js"></script>
   </body>
 </html>
+

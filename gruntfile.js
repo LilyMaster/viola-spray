@@ -99,14 +99,14 @@ module.exports = function(grunt) {
                     nospawn: true
                 }
             },
-            w-lessFramework: {
+            w_lessFramework: {
                 files: ["_/components/less/*.less", "!_/components/less/_*.less"], // which files to watch
                 tasks: ["less:framework"],
                 options: {
                     nospawn: true
                 }
             },
-            w-lessUser: {
+            w_lessUser: {
                 files: ["_/components/less/_mystyles.less"], // which files to watch
                 tasks: ["less:user"],
                 options: {
